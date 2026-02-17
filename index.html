@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mission-Assignment-1</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navber Section Start -->
+    <div class="navbar bg-base-100 max-w-[1440px] mx-auto">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="-1"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+          >
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pages/products.html">Products</a></li>
+            <li><a>About</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <a
+          href="./index.html"
+          class="btn btn-ghost text-xl text-[#4E37F6] font-bold"
+          >SwiftCart</a
+        >
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./pages/products.html">Products</a></li>
+          <li><a>About</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    <!-- Navber Section End -->
+
+    <!-- Herro Section Start -->
+    <section>
+      <div class="relative">
+        <img
+          src="./assets/banner-image.png"
+          alt=""
+          class="w-full object-cover"
+        />
+
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+
+        <!-- Hero Content -->
+        <div class="absolute inset-0 flex items-center">
+          <div class="w-full max-w-[1440px] mx-auto px-10 md:px-20 text-white">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">
+              Best Collection For You
+            </h1>
+            <p class="max-w-xl mb-6">
+              Discover the latest trends in fashion, electronics, and more.
+            </p>
+            <button
+              class="bg-[#4F39F6] hover:bg-[#3d2ed1] px-6 py-3 rounded-lg"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Herro Section End -->
+
+    <!-- body section Start -->
+    <!-- Why choose us -->
+    <section class="bg-gray-100 py-14">
+      <div class="max-w-[1440px] mx-auto px-6">
+        <!-- Title -->
+        <div class="text-center mb-20">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            Why Choose Us
+          </h2>
+          <p class="text-gray-500 text-lg">
+            We provide the best shopping experience with top-notch services.
+          </p>
+        </div>
+
+        <!-- Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+          <!-- Card -->
+          <div
+            class="relative bg-white rounded-2xl p-8 pt-14 shadow-sm hover:shadow-md transition"
+          >
+            <!-- Floating Icon -->
+            <div
+              class="absolute -top-8 left-8 w-16 h-16 flex items-center justify-center rounded-xl bg-indigo-100 shadow-md"
+            >
+              <i class="fa-solid fa-truck text-indigo-600 text-2xl"></i>
+            </div>
+
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">
+              Fast Delivery
+            </h3>
+            <p class="text-gray-500">
+              Get your orders delivered to your doorstep quickly and
+              efficiently.
+            </p>
+          </div>
+
+          <!-- Card -->
+          <div
+            class="relative bg-white rounded-2xl p-8 pt-14 shadow-sm hover:shadow-md transition"
+          >
+            <div
+              class="absolute -top-8 left-8 w-16 h-16 flex items-center justify-center rounded-xl bg-indigo-100 shadow-md"
+            >
+              <i class="fa-solid fa-headset text-indigo-600 text-2xl"></i>
+            </div>
+
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">
+              24/7 Support
+            </h3>
+            <p class="text-gray-500">
+              Our support team is available around the clock to assist you.
+            </p>
+          </div>
+
+          <!-- Card -->
+          <div
+            class="relative bg-white rounded-2xl p-8 pt-14 shadow-sm hover:shadow-md transition"
+          >
+            <div
+              class="absolute -top-8 left-8 w-16 h-16 flex items-center justify-center rounded-xl bg-indigo-100 shadow-md"
+            >
+              <i class="fa-solid fa-shield-halved text-indigo-600 text-2xl"></i>
+            </div>
+
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">
+              Secure Payment
+            </h3>
+            <p class="text-gray-500">
+              Experience safe and secure transactions with our encrypted payment
+              systems.
+            </p>
+          </div>
+
+          <!-- Card -->
+          <div
+            class="relative bg-white rounded-2xl p-8 pt-14 shadow-sm hover:shadow-md transition"
+          >
+            <div
+              class="absolute -top-8 left-8 w-16 h-16 flex items-center justify-center rounded-xl bg-indigo-100 shadow-md"
+            >
+              <i class="fa-solid fa-rotate text-indigo-600 text-2xl"></i>
+            </div>
+
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">
+              Easy Returns
+            </h3>
+            <p class="text-gray-500">
+              Not satisfied? Return your products easily within 30 days.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trending Now -->
+    <section class="max-w-[1440px] mx-auto">
+      <a href="../index.html" class="text-xl font-bold text-center mt-10"
+        >SwiftCart</a
+      >
+      <div
+        id="product-container"
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-[1440px] mx-auto px-6 my-10"
+      ></div>
+    </section>
+    <!-- body section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer sm:footer-horizontal bg-[#1E2939] text-white p-10">
+      <nav>
+        <h6 class="text-xl text-[#4E37F6] font-bold">SwiftCart</h6>
+        <p class="w-[200px]">
+          Your one-stop shop for all your fashion and lifestyle needs. Quality
+          products, fast delivery, and excellent support.
+        </p>
+      </nav>
+      <nav>
+        <h6 class="footer-title">QUICK LINKS</h6>
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">Products</a>
+        <a class="link link-hover">About</a>
+        <a class="link link-hover">Contact</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">SUPPORT</h6>
+        <a class="link link-hover">FAQ</a>
+        <a class="link link-hover">Shipping</a>
+        <a class="link link-hover">Returns</a>
+        <a class="link link-hover">Privacy Policy</a>
+      </nav>
+      <form>
+        <h6 class="footer-title">Newsletter</h6>
+        <fieldset class="w-80">
+          <label>Enter your email address</label>
+          <div class="join">
+            <input
+              type="text"
+              placeholder="Enter your email"
+              class="input rounded join-item"
+            />
+            <button class="btn btn-primary join-item rounded ml-3">
+              Subscribe
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
+    <!-- Footer Section End -->
+
+    <script src="apps.js"></script>
+  </body>
+</html>

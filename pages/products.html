@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mission-Assignment-1</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navber Section Start -->
+    <div class="navbar bg-base-100 max-w-[1440px] mx-auto">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="-1"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+          >
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./products.html">Products</a></li>
+            <li><a>About</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <a
+          href="../index.html"
+          class="btn btn-ghost text-xl text-[#4E37F6] font-bold"
+          >SwiftCart</a
+        >
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./products.html">Products</a></li>
+          <li><a>About</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+    <!-- Navber Section End -->
+
+    <!-- All Products Section -->
+    <div
+      id="product-container"
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-[1440px] mx-auto px-6 my-10"
+    ></div>
+
+    <!-- Footer Section Start -->
+    <footer class="footer sm:footer-horizontal bg-[#1E2939] text-white p-10">
+      <nav>
+        <h6 class="text-xl text-[#4E37F6] font-bold">SwiftCart</h6>
+        <p class="w-[200px]">
+          Your one-stop shop for all your fashion and lifestyle needs. Quality
+          products, fast delivery, and excellent support.
+        </p>
+      </nav>
+      <nav>
+        <h6 class="footer-title">QUICK LINKS</h6>
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">Products</a>
+        <a class="link link-hover">About</a>
+        <a class="link link-hover">Contact</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">SUPPORT</h6>
+        <a class="link link-hover">FAQ</a>
+        <a class="link link-hover">Shipping</a>
+        <a class="link link-hover">Returns</a>
+        <a class="link link-hover">Privacy Policy</a>
+      </nav>
+      <form>
+        <h6 class="footer-title">Newsletter</h6>
+        <fieldset class="w-80">
+          <label>Enter your email address</label>
+          <div class="join">
+            <input
+              type="text"
+              placeholder="Enter your email"
+              class="input rounded join-item"
+            />
+            <button class="btn btn-primary join-item rounded ml-3">
+              Subscribe
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
+    <!-- Footer Section End -->
+
+    <script src="../pages/script.js"></script>
+  </body>
+</html>
