@@ -104,7 +104,7 @@
     <!-- body section Start -->
     <!-- Why choose us -->
     <section class="bg-gray-100 py-14">
-      <div class="max-w-[1440px] mx-auto px-6">
+      <div class="max-w-[1440px] mx-auto">
         <!-- Title -->
         <div class="text-center mb-20">
           <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -197,58 +197,87 @@
 
     <!-- Trending Now -->
     <section class="max-w-[1440px] mx-auto">
-      <a href="../index.html" class="text-xl font-bold text-center mt-10"
-        >SwiftCart</a
-      >
+      <h2 class="text-2xl font-bold mt-10">Trending Now</h2>
       <div
         id="product-container"
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-[1440px] mx-auto px-6 my-10"
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-[1440px] mx-auto my-10"
       ></div>
     </section>
     <!-- body section End -->
 
     <!-- Footer Section Start -->
-    <footer class="footer sm:footer-horizontal bg-[#1E2939] text-white p-10">
-      <nav>
-        <h6 class="text-xl text-[#4E37F6] font-bold">SwiftCart</h6>
-        <p class="w-[200px]">
-          Your one-stop shop for all your fashion and lifestyle needs. Quality
-          products, fast delivery, and excellent support.
-        </p>
-      </nav>
-      <nav>
-        <h6 class="footer-title">QUICK LINKS</h6>
-        <a class="link link-hover">Home</a>
-        <a class="link link-hover">Products</a>
-        <a class="link link-hover">About</a>
-        <a class="link link-hover">Contact</a>
-      </nav>
-      <nav>
-        <h6 class="footer-title">SUPPORT</h6>
-        <a class="link link-hover">FAQ</a>
-        <a class="link link-hover">Shipping</a>
-        <a class="link link-hover">Returns</a>
-        <a class="link link-hover">Privacy Policy</a>
-      </nav>
-      <form>
-        <h6 class="footer-title">Newsletter</h6>
-        <fieldset class="w-80">
-          <label>Enter your email address</label>
-          <div class="join">
-            <input
-              type="text"
-              placeholder="Enter your email"
-              class="input rounded join-item"
-            />
-            <button class="btn btn-primary join-item rounded ml-3">
-              Subscribe
-            </button>
-          </div>
-        </fieldset>
-      </form>
-    </footer>
-    <!-- Footer Section End -->
+    <footer class="bg-[#1E2939] text-white w-full">
+      <div
+        class="max-w-[1440px] mx-auto grid sm:grid-cols-2 md:grid-cols-4 gap-10 py-10"
+      >
+        <!-- Brand Info -->
+        <nav>
+          <h6 class="text-xl text-[#4E37F6] font-bold">SwiftCart</h6>
+          <p class="w-[200px]">
+            Your one-stop shop for all your fashion and lifestyle needs. Quality
+            products, fast delivery, and excellent support.
+          </p>
+        </nav>
 
+        <!-- Quick Links -->
+        <nav>
+          <h6 class="footer-title">QUICK LINKS</h6>
+          <a class="link link-hover">Home</a>
+          <a class="link link-hover">Products</a>
+          <a class="link link-hover">About</a>
+          <a class="link link-hover">Contact</a>
+        </nav>
+
+        <!-- Support -->
+        <nav>
+          <h6 class="footer-title">SUPPORT</h6>
+          <a class="link link-hover">FAQ</a>
+          <a class="link link-hover">Shipping</a>
+          <a class="link link-hover">Returns</a>
+          <a class="link link-hover">Privacy Policy</a>
+        </nav>
+
+        <!-- Newsletter -->
+        <form>
+          <h6 class="footer-title">Newsletter</h6>
+          <fieldset class="w-80">
+            <label>Enter your email address</label>
+            <div class="join mt-2">
+              <input
+                type="text"
+                placeholder="Enter your email"
+                class="input rounded join-item"
+              />
+              <button class="btn btn-primary join-item rounded ml-3">
+                Subscribe
+              </button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </footer>
+
+    <!-- Footer Section End -->
+    <div>
+      <footer
+        class="bg-[#1E2939] text-neutral-content border-t border-gray-700"
+      >
+        <div
+          class="max-w-[1440px] mx-auto flex items-center justify-between py-4"
+        >
+          <aside>
+            <p>© 2025 SwiftCart, Inc. All right reserved</p>
+          </aside>
+          <nav class="flex gap-4">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-solid fa-x"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-regular fa-envelope"></i>
+          </nav>
+        </div>
+      </footer>
+    </div>
     <script src="apps.js"></script>
   </body>
 </html>
