@@ -1,6 +1,6 @@
 # SwiftCart - Responsive E-commerce Landing Page
 
-**Live Demo:** [YOUR_DEPLOYED_URL_HERE](YOUR_DEPLOYED_URL_HERE)  
+**Live Demo:** https://mission-restart-swiftcart-e-commerce.netlify.app
 **GitHub Repository:** https://github.com/ohiduzzaman23/mission-assignment-1
 
 ## Create a README file to answer the following questions-
